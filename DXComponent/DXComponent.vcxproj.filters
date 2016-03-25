@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>30e1c14e-97e4-4daa-bee4-add6710c7849</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Class1.cpp" />
+    <ClCompile Include="App7Main.cpp" />
+    <ClCompile Include="Common\DeviceResources.cpp" />
+    <ClCompile Include="Content\Particle.cpp" />
+    <ClCompile Include="Content\Sample2DSceneRenderer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Class1.h" />
+    <ClInclude Include="App7Main.h" />
+    <ClInclude Include="Common\DeviceResources.h" />
+    <ClInclude Include="Common\DirectXHelper.h" />
+    <ClInclude Include="Common\StepTimer.h" />
+    <ClInclude Include="Content\Particle.h" />
+    <ClInclude Include="Content\Sample2DSceneRenderer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\flare.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Assets\leaf.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Assets\snowflake.png">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
